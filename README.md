@@ -252,34 +252,6 @@ com.example.studyspace/
 └── StudySpaceApplication.kt      # Application class
 ```
 
----
-
-## Screenshot Aplikasi
-
-> **Catatan:** Screenshot diambil dari emulator Android Studio.
-
-Folder `screenshots/` tersedia untuk menyimpan hasil screenshot dari setiap halaman:
-
-```
-screenshots/
-├── 01_home_dashboard.png
-├── 02_focus_timer_idle.png
-├── 03_focus_timer_running.png
-├── 04_focus_session_complete.png
-├── 05_environment_monitoring.png
-├── 06_history_list.png
-├── 07_history_detail.png
-├── 08_statistics.png
-```
-
-**Cara mengambil screenshot dari Android Studio:**
-1. Jalankan emulator Android
-2. Jalankan aplikasi
-3. Di panel **Emulator**, klik ikon kamera (📷)
-4. Screenshot tersimpan otomatis ke folder yang ditunjuk
-
----
-
 ## Cara Menjalankan Aplikasi
 
 ### Prasyarat
@@ -343,35 +315,6 @@ screenshots/
 - Sensor cahaya (`TYPE_LIGHT`) umumnya tidak tersedia di emulator Android
 - Aplikasi akan menampilkan pesan "sensor tidak tersedia" — ini perilaku yang benar
 - Gunakan perangkat fisik untuk menguji fitur sensor cahaya secara lengkap
-
----
-
-## Langkah Upload ke GitHub
-
-```bash
-# 1. Inisialisasi git di folder project
-cd C:\Users\user\.gemini\antigravity\scratch\StudySpace
-git init
-
-# 2. Tambahkan .gitignore untuk Android
-# (download dari https://github.com/github/gitignore/blob/main/Android.gitignore)
-
-# 3. Stage semua file
-git add .
-
-# 4. Commit pertama
-git commit -m "feat: Initial commit StudySpace Android App"
-
-# 5. Buat repository di GitHub (via browser github.com)
-
-# 6. Tambahkan remote
-git remote add origin https://github.com/USERNAME/StudySpace.git
-
-# 7. Push
-git push -u origin main
-```
-
----
 
 ## Informasi Developer
 
